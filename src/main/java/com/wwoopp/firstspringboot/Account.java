@@ -13,6 +13,7 @@ import javax.persistence.Id;
 @Builder
 @Getter
 @Setter
+@EqualsAndHashCode
 public class Account {
 
     @GeneratedValue
